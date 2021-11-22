@@ -96,7 +96,7 @@ class Cache_Sniper_Nginx {
       'nginx_cache_sniper_metabox',
       CSNX_Render_Helper::PLUGIN_NAME,
       [ $this, 'csnx_render_metabox' ],
-      ['post', 'page'],
+      ['post', 'page', 'product'],
       'side',
       'low'
     );
